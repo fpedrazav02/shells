@@ -25,9 +25,10 @@
             graal
             jdk
             maven
-            jdt-language-server
             git
             sqlite
+            jdt-language-server
+            google-java-format
           ];
 
           JAVA_HOME = "${jdk}";
