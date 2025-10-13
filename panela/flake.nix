@@ -28,11 +28,16 @@
             jdt-language-server
             git
             sqlite
+            clang
+            libclang
+            apple-sdk
           ];
 
           JAVA_HOME = "${jdk}";
           GRAALVM_HOME = "${graal}";
           MAVEN_OPTS = "-Xmx1g";
+          MACOSX_DEPLOYMENT_TARGET = "14.0";
+          DEVELOPER_DIR = "/Library/Developer/CommandLineTools";
 
           shellHook = ''
             echo "Panela shell"
