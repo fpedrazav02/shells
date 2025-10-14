@@ -24,7 +24,7 @@
           buildInputs = with pkgs; [
             graal
             jdk
-            maven
+            gradle
             jdt-language-server
             git
             sqlite
