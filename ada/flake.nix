@@ -32,7 +32,6 @@
 
       packages = [
         adaLanguageServer
-        gnat15
       ];
 
       shellHook = ''
