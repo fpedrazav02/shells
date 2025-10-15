@@ -23,7 +23,7 @@
       installPhase = ''
         mkdir -p $out/bin
         tar -xzf $src
-        cp ada_language_server $out/bin/
+        cp integration/vscode/ada/x64/linux/ada_language_server $out/bin/
       '';
     };
   in {
