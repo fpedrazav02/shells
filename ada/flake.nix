@@ -1,4 +1,4 @@
-pkg{
+{
   description = "DevShell for Ada";
 
   inputs = {
