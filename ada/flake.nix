@@ -1,4 +1,4 @@
-{
+pkg{
   description = "DevShell for Ada";
 
   inputs = {
@@ -32,6 +32,7 @@
 
       packages = [
         adaLanguageServer
+        pkgs.gnat15
       ];
 
       shellHook = ''
