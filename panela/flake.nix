@@ -30,7 +30,6 @@
             sqlite
             clang
             libclang
-            apple-sdk
           ];
 
           JAVA_HOME = "${jdk}";
