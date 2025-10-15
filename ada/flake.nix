@@ -15,7 +15,7 @@
       version = "2026.0";
 
       src = pkgs.fetchurl {
-        url = "https://github.com/AdaCore/ada_language_server/releases/download/v${version}/ada_language_server-${version}-linux.tar.gz";
+        url = "https://github.com/AdaCore/ada_language_server/releases/download/v${version}/als-${version}-linux-x64.tar.gz";
         sha256 = "sha256:c5ae56618e4264bf276abe0c8687e3ff427efc5070fa3a86c2084c90a1f45817";
       };
 
