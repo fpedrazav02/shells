@@ -12,7 +12,7 @@
 
     adaLanguageServer = pkgs.stdenv.mkDerivation rec {
       pname = "ada-language-server";
-      version = "2026.0";
+      version = "2026.0.202510141";
 
       src = pkgs.fetchurl {
         url = "https://github.com/AdaCore/ada_language_server/releases/download/${version}/als-${version}-linux-x64.tar.gz";
