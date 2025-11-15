@@ -22,6 +22,7 @@
           buildInputs = with pkgs; [
             kotlin
             ktlint
+            ktfmt
             detekt
             maven
             gradle
